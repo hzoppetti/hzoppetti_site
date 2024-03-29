@@ -35,7 +35,7 @@ export default function PostLayout({
   const keywords = tags.map((it) => getTag(it).name);
   const authorName = getAuthor(author).name;
   return (
-    <Layout page="Post">
+    <Layout>
       <BasicMeta
         url={`/posts/${slug}`}
         title={title}
