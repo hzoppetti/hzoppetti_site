@@ -1,0 +1,20 @@
+{
+  "base_url": "https://heatherzoppetti.com",
+  "site_title": "Heather Zoppetti",
+  "site_description": "Heather Zoppetti's website and blog",
+  "site_keywords": [
+    {
+      "keyword": "Next.js"
+    },
+    {
+      "keyword": "Netlify"
+    },
+    {
+      "keyword": "React"
+    }
+  ],
+  "posts_per_page": 5,
+  "twitter_account": "@digitalnabi",
+  "github_account": "hzoppetti",
+  "substack_account": "heatherzoppetti"
+}
