@@ -1,22 +1,20 @@
 import React from "react";
-import Twitter from "../assets/twitter-alt.svg";
-import GitHub from "../assets/github-alt.svg";
-import Substack from "../assets/substack-alt.svg";
 import config from "../lib/config";
 import { FaTwitter } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
 import { BsSubstack } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 
 export function SocialList({}) {
   return (
     <div>
       <a
-        title="Twitter"
-        href={`https://twitter.com/${config.twitter_account}`}
+        title="LinkedIn"
+        href={`https://www.linkedin.com/in/heather-zoppetti/`}
         target="_blank"
         rel="noopener"
       >
-        <FaTwitter />
+        <FaLinkedin />
       </a>
       <a
         title="GitHub"
@@ -25,6 +23,14 @@ export function SocialList({}) {
         rel="noopener"
       >
         <SiGithub />
+      </a>
+      <a
+        title="Twitter"
+        href={`https://twitter.com/${config.twitter_account}`}
+        target="_blank"
+        rel="noopener"
+      >
+        <FaTwitter />
       </a>
       <a
         title="Substack"
