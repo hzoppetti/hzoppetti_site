@@ -34,7 +34,9 @@ export default function Index() {
             />
           </span>
           <h2>Welcome to my website.</h2>
-          <span className="handle">(I'm looking for work.)</span>
+          <span className="handle">
+            I made this site because all the cool kids have one.
+          </span>
           <SocialList />
         </div>
       </div>

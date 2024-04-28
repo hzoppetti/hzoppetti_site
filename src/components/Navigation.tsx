@@ -16,8 +16,13 @@ export default function Navigation() {
               href="/"
               className={router.pathname === "/" ? "active" : null}
             >
-              about
+              home
             </Link>
+          </li>
+          <li>
+            <a title="about" href={`/posts/about_me`}>
+              about
+            </a>
           </li>
           <li>
             <Link
